@@ -129,18 +129,6 @@ Prefab:
       propertyPath: m_Constraints
       value: 120
       objectReference: {fileID: 0}
-    - target: {fileID: 11412242, guid: e34789634e12c0c488a8b1004089d9a6, type: 2}
-      propertyPath: StaticEnemies
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11412242, guid: e34789634e12c0c488a8b1004089d9a6, type: 2}
-      propertyPath: DestroyWithTime
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11412242, guid: e34789634e12c0c488a8b1004089d9a6, type: 2}
-      propertyPath: LifeTime
-      value: 5
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e34789634e12c0c488a8b1004089d9a6, type: 2}
   m_RootGameObject: {fileID: 2000396153}
@@ -201,18 +189,6 @@ Prefab:
       propertyPath: m_Constraints
       value: 120
       objectReference: {fileID: 0}
-    - target: {fileID: 11412242, guid: e34789634e12c0c488a8b1004089d9a6, type: 2}
-      propertyPath: StaticEnemies
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11412242, guid: e34789634e12c0c488a8b1004089d9a6, type: 2}
-      propertyPath: DestroyWithTime
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11412242, guid: e34789634e12c0c488a8b1004089d9a6, type: 2}
-      propertyPath: LifeTime
-      value: 5
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e34789634e12c0c488a8b1004089d9a6, type: 2}
   m_RootGameObject: {fileID: 131706073}
@@ -262,10 +238,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcf4d04101322f04ca5e940870d365b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DestroyWithTime: 1
-  LifeTime: 5
+  DestroyWithTime: 0
+  LifeTime: 7.5
   Speed: 8
-  StaticEnemies: 1
 --- !u!23 &117254538
 Renderer:
   m_ObjectHideFlags: 0
@@ -368,10 +343,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcf4d04101322f04ca5e940870d365b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DestroyWithTime: 1
-  LifeTime: 5
+  DestroyWithTime: 0
+  LifeTime: 7.5
   Speed: 8
-  StaticEnemies: 1
 --- !u!23 &131706076
 Renderer:
   m_ObjectHideFlags: 0
@@ -485,18 +459,6 @@ Prefab:
       propertyPath: m_Constraints
       value: 120
       objectReference: {fileID: 0}
-    - target: {fileID: 11412242, guid: e34789634e12c0c488a8b1004089d9a6, type: 2}
-      propertyPath: StaticEnemies
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11412242, guid: e34789634e12c0c488a8b1004089d9a6, type: 2}
-      propertyPath: DestroyWithTime
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11412242, guid: e34789634e12c0c488a8b1004089d9a6, type: 2}
-      propertyPath: LifeTime
-      value: 5
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e34789634e12c0c488a8b1004089d9a6, type: 2}
   m_RootGameObject: {fileID: 1738507718}
@@ -546,10 +508,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcf4d04101322f04ca5e940870d365b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DestroyWithTime: 1
-  LifeTime: 5
+  DestroyWithTime: 0
+  LifeTime: 7.5
   Speed: 8
-  StaticEnemies: 1
 --- !u!23 &224499864
 Renderer:
   m_ObjectHideFlags: 0
@@ -663,18 +624,6 @@ Prefab:
       propertyPath: m_Constraints
       value: 120
       objectReference: {fileID: 0}
-    - target: {fileID: 11412242, guid: e34789634e12c0c488a8b1004089d9a6, type: 2}
-      propertyPath: StaticEnemies
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11412242, guid: e34789634e12c0c488a8b1004089d9a6, type: 2}
-      propertyPath: DestroyWithTime
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11412242, guid: e34789634e12c0c488a8b1004089d9a6, type: 2}
-      propertyPath: LifeTime
-      value: 5
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e34789634e12c0c488a8b1004089d9a6, type: 2}
   m_RootGameObject: {fileID: 1346416547}
@@ -735,21 +684,61 @@ Prefab:
       propertyPath: m_Constraints
       value: 120
       objectReference: {fileID: 0}
-    - target: {fileID: 11412242, guid: e34789634e12c0c488a8b1004089d9a6, type: 2}
-      propertyPath: StaticEnemies
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11412242, guid: e34789634e12c0c488a8b1004089d9a6, type: 2}
-      propertyPath: DestroyWithTime
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11412242, guid: e34789634e12c0c488a8b1004089d9a6, type: 2}
-      propertyPath: LifeTime
-      value: 5
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e34789634e12c0c488a8b1004089d9a6, type: 2}
   m_RootGameObject: {fileID: 224499861}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
+--- !u!1001 &385702945
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 488152, guid: 10a6249887038ff43893542f59d0a811, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 488152, guid: 10a6249887038ff43893542f59d0a811, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 488152, guid: 10a6249887038ff43893542f59d0a811, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 488152, guid: 10a6249887038ff43893542f59d0a811, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 488152, guid: 10a6249887038ff43893542f59d0a811, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 488152, guid: 10a6249887038ff43893542f59d0a811, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 488152, guid: 10a6249887038ff43893542f59d0a811, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 488152, guid: 10a6249887038ff43893542f59d0a811, type: 2}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 188152, guid: 10a6249887038ff43893542f59d0a811, type: 2}
+      propertyPath: m_Name
+      value: SimpleSquare
+      objectReference: {fileID: 0}
+    - target: {fileID: 11496824, guid: 10a6249887038ff43893542f59d0a811, type: 2}
+      propertyPath: FireRate
+      value: .100000001
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 10a6249887038ff43893542f59d0a811, type: 2}
+  m_RootGameObject: {fileID: 851986900}
   m_IsPrefabParent: 0
   m_IsExploded: 1
 --- !u!1 &454990097
@@ -796,10 +785,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcf4d04101322f04ca5e940870d365b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DestroyWithTime: 1
-  LifeTime: 5
+  DestroyWithTime: 0
+  LifeTime: 7.5
   Speed: 8
-  StaticEnemies: 1
 --- !u!23 &454990100
 Renderer:
   m_ObjectHideFlags: 0
@@ -902,10 +890,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcf4d04101322f04ca5e940870d365b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DestroyWithTime: 1
-  LifeTime: 5
+  DestroyWithTime: 0
+  LifeTime: 7.5
   Speed: 8
-  StaticEnemies: 1
 --- !u!23 &472574344
 Renderer:
   m_ObjectHideFlags: 0
@@ -1019,18 +1006,6 @@ Prefab:
       propertyPath: m_Constraints
       value: 120
       objectReference: {fileID: 0}
-    - target: {fileID: 11412242, guid: e34789634e12c0c488a8b1004089d9a6, type: 2}
-      propertyPath: StaticEnemies
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11412242, guid: e34789634e12c0c488a8b1004089d9a6, type: 2}
-      propertyPath: DestroyWithTime
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11412242, guid: e34789634e12c0c488a8b1004089d9a6, type: 2}
-      propertyPath: LifeTime
-      value: 5
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e34789634e12c0c488a8b1004089d9a6, type: 2}
   m_RootGameObject: {fileID: 472574341}
@@ -1080,10 +1055,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcf4d04101322f04ca5e940870d365b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DestroyWithTime: 1
-  LifeTime: 5
+  DestroyWithTime: 0
+  LifeTime: 7.5
   Speed: 8
-  StaticEnemies: 1
 --- !u!23 &500641070
 Renderer:
   m_ObjectHideFlags: 0
@@ -1196,18 +1170,6 @@ Prefab:
     - target: {fileID: 5453928, guid: e34789634e12c0c488a8b1004089d9a6, type: 2}
       propertyPath: m_Constraints
       value: 120
-      objectReference: {fileID: 0}
-    - target: {fileID: 11412242, guid: e34789634e12c0c488a8b1004089d9a6, type: 2}
-      propertyPath: StaticEnemies
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11412242, guid: e34789634e12c0c488a8b1004089d9a6, type: 2}
-      propertyPath: DestroyWithTime
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11412242, guid: e34789634e12c0c488a8b1004089d9a6, type: 2}
-      propertyPath: LifeTime
-      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e34789634e12c0c488a8b1004089d9a6, type: 2}
@@ -1342,10 +1304,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcf4d04101322f04ca5e940870d365b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DestroyWithTime: 1
-  LifeTime: 5
+  DestroyWithTime: 0
+  LifeTime: 7.5
   Speed: 8
-  StaticEnemies: 1
 --- !u!23 &741486196
 Renderer:
   m_ObjectHideFlags: 0
@@ -1404,6 +1365,111 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 120
   m_CollisionDetection: 0
+--- !u!1 &851986900
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 188152, guid: 10a6249887038ff43893542f59d0a811, type: 2}
+  m_PrefabInternal: {fileID: 385702945}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 851986904}
+  - 33: {fileID: 851986903}
+  - 65: {fileID: 851986902}
+  - 23: {fileID: 851986901}
+  - 114: {fileID: 851986905}
+  - 114: {fileID: 851986906}
+  m_Layer: 0
+  m_Name: SimpleSquare
+  m_TagString: Cube
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &851986901
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2388152, guid: 10a6249887038ff43893542f59d0a811,
+    type: 2}
+  m_PrefabInternal: {fileID: 385702945}
+  m_GameObject: {fileID: 851986900}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: d8a19e79565c9f8458c15142d915a2ec, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!65 &851986902
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6588152, guid: 10a6249887038ff43893542f59d0a811,
+    type: 2}
+  m_PrefabInternal: {fileID: 385702945}
+  m_GameObject: {fileID: 851986900}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &851986903
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3388152, guid: 10a6249887038ff43893542f59d0a811,
+    type: 2}
+  m_PrefabInternal: {fileID: 385702945}
+  m_GameObject: {fileID: 851986900}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &851986904
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 488152, guid: 10a6249887038ff43893542f59d0a811, type: 2}
+  m_PrefabInternal: {fileID: 385702945}
+  m_GameObject: {fileID: 851986900}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 2.5, y: 2.5, z: 2.5}
+  m_Children:
+  - {fileID: 1864376297}
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+--- !u!114 &851986905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11496824, guid: 10a6249887038ff43893542f59d0a811,
+    type: 2}
+  m_PrefabInternal: {fileID: 385702945}
+  m_GameObject: {fileID: 851986900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fbdf8a5a392d6e4286f4d1cd2be5f37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FireRate: .100000001
+  FireProjectileSpeed: 40
+--- !u!114 &851986906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11456872, guid: 10a6249887038ff43893542f59d0a811,
+    type: 2}
+  m_PrefabInternal: {fileID: 385702945}
+  m_GameObject: {fileID: 851986900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff07e31e43a1f604ca19a2d2b8527717, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FireRotationThreshold: 6.5
+  Projectile: {fileID: 103660, guid: ee475ce8f2ca59644b3ddbda2caa8afe, type: 2}
+  RotationSpeed: 10
+  TheCube: {fileID: 851986905}
 --- !u!1 &929671474
 GameObject:
   m_ObjectHideFlags: 0
@@ -1448,10 +1514,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcf4d04101322f04ca5e940870d365b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DestroyWithTime: 1
-  LifeTime: 5
+  DestroyWithTime: 0
+  LifeTime: 7.5
   Speed: 8
-  StaticEnemies: 1
 --- !u!23 &929671477
 Renderer:
   m_ObjectHideFlags: 0
@@ -1542,10 +1607,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcf4d04101322f04ca5e940870d365b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DestroyWithTime: 1
-  LifeTime: 5
+  DestroyWithTime: 0
+  LifeTime: 7.5
   Speed: 8
-  StaticEnemies: 1
 --- !u!23 &1043917769
 Renderer:
   m_ObjectHideFlags: 0
@@ -1671,18 +1735,6 @@ Prefab:
       propertyPath: m_Constraints
       value: 120
       objectReference: {fileID: 0}
-    - target: {fileID: 11412242, guid: e34789634e12c0c488a8b1004089d9a6, type: 2}
-      propertyPath: StaticEnemies
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11412242, guid: e34789634e12c0c488a8b1004089d9a6, type: 2}
-      propertyPath: DestroyWithTime
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11412242, guid: e34789634e12c0c488a8b1004089d9a6, type: 2}
-      propertyPath: LifeTime
-      value: 5
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e34789634e12c0c488a8b1004089d9a6, type: 2}
   m_RootGameObject: {fileID: 500641067}
@@ -1742,18 +1794,6 @@ Prefab:
     - target: {fileID: 5453928, guid: e34789634e12c0c488a8b1004089d9a6, type: 2}
       propertyPath: m_Constraints
       value: 120
-      objectReference: {fileID: 0}
-    - target: {fileID: 11412242, guid: e34789634e12c0c488a8b1004089d9a6, type: 2}
-      propertyPath: StaticEnemies
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11412242, guid: e34789634e12c0c488a8b1004089d9a6, type: 2}
-      propertyPath: DestroyWithTime
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11412242, guid: e34789634e12c0c488a8b1004089d9a6, type: 2}
-      propertyPath: LifeTime
-      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e34789634e12c0c488a8b1004089d9a6, type: 2}
@@ -1815,18 +1855,6 @@ Prefab:
       propertyPath: m_Constraints
       value: 120
       objectReference: {fileID: 0}
-    - target: {fileID: 11412242, guid: e34789634e12c0c488a8b1004089d9a6, type: 2}
-      propertyPath: StaticEnemies
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11412242, guid: e34789634e12c0c488a8b1004089d9a6, type: 2}
-      propertyPath: DestroyWithTime
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11412242, guid: e34789634e12c0c488a8b1004089d9a6, type: 2}
-      propertyPath: LifeTime
-      value: 5
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e34789634e12c0c488a8b1004089d9a6, type: 2}
   m_RootGameObject: {fileID: 929671474}
@@ -1886,18 +1914,6 @@ Prefab:
     - target: {fileID: 5453928, guid: e34789634e12c0c488a8b1004089d9a6, type: 2}
       propertyPath: m_Constraints
       value: 120
-      objectReference: {fileID: 0}
-    - target: {fileID: 11412242, guid: e34789634e12c0c488a8b1004089d9a6, type: 2}
-      propertyPath: StaticEnemies
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11412242, guid: e34789634e12c0c488a8b1004089d9a6, type: 2}
-      propertyPath: DestroyWithTime
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11412242, guid: e34789634e12c0c488a8b1004089d9a6, type: 2}
-      propertyPath: LifeTime
-      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e34789634e12c0c488a8b1004089d9a6, type: 2}
@@ -1959,18 +1975,6 @@ Prefab:
       propertyPath: m_Constraints
       value: 120
       objectReference: {fileID: 0}
-    - target: {fileID: 11412242, guid: e34789634e12c0c488a8b1004089d9a6, type: 2}
-      propertyPath: StaticEnemies
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11412242, guid: e34789634e12c0c488a8b1004089d9a6, type: 2}
-      propertyPath: DestroyWithTime
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11412242, guid: e34789634e12c0c488a8b1004089d9a6, type: 2}
-      propertyPath: LifeTime
-      value: 5
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e34789634e12c0c488a8b1004089d9a6, type: 2}
   m_RootGameObject: {fileID: 1043917767}
@@ -1985,9 +1989,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 1292065682}
   - 114: {fileID: 1292065683}
-  - 114: {fileID: 1292065684}
   m_Layer: 0
-  m_Name: GameLogicController
+  m_Name: EnemyController
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2019,14 +2022,14 @@ Transform:
   - {fileID: 2000396154}
   - {fileID: 1408432522}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
 --- !u!114 &1292065683
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1292065681}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 61814a0eb2b11db43b424b18c1822bd8, type: 3}
   m_Name: 
@@ -2049,39 +2052,8 @@ MonoBehaviour:
   - {fileID: 1408432523}
   EnemyPrefab: {fileID: 180058, guid: e34789634e12c0c488a8b1004089d9a6, type: 2}
   MaxEnemies: 100
-  NearDistance: 20
-  TimeThreshold: .200000003
---- !u!114 &1292065684
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1292065681}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5de8ff97081823b4590ec4b456b1a05c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Enemies:
-  - {fileID: 117254537}
-  - {fileID: 131706075}
-  - {fileID: 929671476}
-  - {fileID: 1644244840}
-  - {fileID: 500641069}
-  - {fileID: 500641069}
-  - {fileID: 472574343}
-  - {fileID: 224499863}
-  - {fileID: 1346416549}
-  - {fileID: 454990099}
-  - {fileID: 741486195}
-  - {fileID: 1738507720}
-  - {fileID: 1043917768}
-  - {fileID: 2000396155}
-  - {fileID: 1408432523}
-  EnemyPrefab: {fileID: 180058, guid: e34789634e12c0c488a8b1004089d9a6, type: 2}
-  MaxEnemies: 100
-  NearDistance: 20
-  TimeThreshold: .200000003
+  NearDistance: 100
+  TimeThreshold: 2
 --- !u!1 &1314246271
 GameObject:
   m_ObjectHideFlags: 0
@@ -2196,10 +2168,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcf4d04101322f04ca5e940870d365b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DestroyWithTime: 1
-  LifeTime: 5
+  DestroyWithTime: 0
+  LifeTime: 7.5
   Speed: 8
-  StaticEnemies: 1
 --- !u!23 &1346416550
 Renderer:
   m_ObjectHideFlags: 0
@@ -2302,10 +2273,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcf4d04101322f04ca5e940870d365b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DestroyWithTime: 1
-  LifeTime: 5
+  DestroyWithTime: 0
+  LifeTime: 7.5
   Speed: 8
-  StaticEnemies: 1
 --- !u!23 &1408432524
 Renderer:
   m_ObjectHideFlags: 0
@@ -2419,18 +2389,6 @@ Prefab:
       propertyPath: m_Constraints
       value: 120
       objectReference: {fileID: 0}
-    - target: {fileID: 11412242, guid: e34789634e12c0c488a8b1004089d9a6, type: 2}
-      propertyPath: StaticEnemies
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11412242, guid: e34789634e12c0c488a8b1004089d9a6, type: 2}
-      propertyPath: DestroyWithTime
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11412242, guid: e34789634e12c0c488a8b1004089d9a6, type: 2}
-      propertyPath: LifeTime
-      value: 5
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e34789634e12c0c488a8b1004089d9a6, type: 2}
   m_RootGameObject: {fileID: 117254535}
@@ -2490,18 +2448,6 @@ Prefab:
     - target: {fileID: 5453928, guid: e34789634e12c0c488a8b1004089d9a6, type: 2}
       propertyPath: m_Constraints
       value: 120
-      objectReference: {fileID: 0}
-    - target: {fileID: 11412242, guid: e34789634e12c0c488a8b1004089d9a6, type: 2}
-      propertyPath: StaticEnemies
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11412242, guid: e34789634e12c0c488a8b1004089d9a6, type: 2}
-      propertyPath: DestroyWithTime
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11412242, guid: e34789634e12c0c488a8b1004089d9a6, type: 2}
-      propertyPath: LifeTime
-      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e34789634e12c0c488a8b1004089d9a6, type: 2}
@@ -2615,10 +2561,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcf4d04101322f04ca5e940870d365b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DestroyWithTime: 1
-  LifeTime: 5
+  DestroyWithTime: 0
+  LifeTime: 7.5
   Speed: 8
-  StaticEnemies: 1
 --- !u!23 &1644244841
 Renderer:
   m_ObjectHideFlags: 0
@@ -2732,18 +2677,6 @@ Prefab:
       propertyPath: m_Constraints
       value: 120
       objectReference: {fileID: 0}
-    - target: {fileID: 11412242, guid: e34789634e12c0c488a8b1004089d9a6, type: 2}
-      propertyPath: StaticEnemies
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11412242, guid: e34789634e12c0c488a8b1004089d9a6, type: 2}
-      propertyPath: DestroyWithTime
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11412242, guid: e34789634e12c0c488a8b1004089d9a6, type: 2}
-      propertyPath: LifeTime
-      value: 5
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e34789634e12c0c488a8b1004089d9a6, type: 2}
   m_RootGameObject: {fileID: 1644244838}
@@ -2793,10 +2726,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcf4d04101322f04ca5e940870d365b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DestroyWithTime: 1
-  LifeTime: 5
+  DestroyWithTime: 0
+  LifeTime: 7.5
   Speed: 8
-  StaticEnemies: 1
 --- !u!23 &1738507721
 Renderer:
   m_ObjectHideFlags: 0
@@ -2855,6 +2787,64 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 120
   m_CollisionDetection: 0
+--- !u!1 &1864376293
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 156872, guid: 10a6249887038ff43893542f59d0a811, type: 2}
+  m_PrefabInternal: {fileID: 385702945}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1864376297}
+  - 33: {fileID: 1864376296}
+  - 23: {fileID: 1864376294}
+  m_Layer: 0
+  m_Name: Cube
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &1864376294
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2356872, guid: 10a6249887038ff43893542f59d0a811,
+    type: 2}
+  m_PrefabInternal: {fileID: 385702945}
+  m_GameObject: {fileID: 1864376293}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &1864376296
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3356872, guid: 10a6249887038ff43893542f59d0a811,
+    type: 2}
+  m_PrefabInternal: {fileID: 385702945}
+  m_GameObject: {fileID: 1864376293}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1864376297
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 456872, guid: 10a6249887038ff43893542f59d0a811, type: 2}
+  m_PrefabInternal: {fileID: 385702945}
+  m_GameObject: {fileID: 1864376293}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -.0289999992, y: .483999997, z: -.00700000022}
+  m_LocalScale: {x: .616386354, y: .652861536, z: .400000006}
+  m_Children: []
+  m_Father: {fileID: 851986904}
+  m_RootOrder: 0
 --- !u!1 &1930633447
 GameObject:
   m_ObjectHideFlags: 0
@@ -2899,10 +2889,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcf4d04101322f04ca5e940870d365b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DestroyWithTime: 1
-  LifeTime: 5
+  DestroyWithTime: 0
+  LifeTime: 7.5
   Speed: 8
-  StaticEnemies: 1
 --- !u!23 &1930633450
 Renderer:
   m_ObjectHideFlags: 0
@@ -3005,10 +2994,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcf4d04101322f04ca5e940870d365b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DestroyWithTime: 1
-  LifeTime: 5
+  DestroyWithTime: 0
+  LifeTime: 7.5
   Speed: 8
-  StaticEnemies: 1
 --- !u!23 &2000396156
 Renderer:
   m_ObjectHideFlags: 0

@@ -5,7 +5,7 @@ using Random = System.Random;
 
 namespace Assets.Scripts
 {
-    public class EnemyMind : MonoBehaviour
+    public class TapToKillGameLogic : MonoBehaviour
     {
         public static Random RandomGenerator = new Random(DateTime.Now.Millisecond);
         public EnemyScript[] Enemies;
@@ -35,14 +35,7 @@ namespace Assets.Scripts
 
         public Vector3 GenerateCoordinates()
         {
-            var angle = RandomGenerator.Next(0, 359);
-            var x = Mathf.Sin(angle);
-            var y = Mathf.Cos(angle);
-
-            var rVec = new Vector3(x, y, 0)*NearDistance;
-
-            rVec.z = -10;
-            return rVec;
+            return new Vector3(RandomGenerator.Next(1, 120) - 60, RandomGenerator.Next(0, 72) - 36, 0) {z = -10};
         }
 
         public EnemyScript GetIdleEnemy()
